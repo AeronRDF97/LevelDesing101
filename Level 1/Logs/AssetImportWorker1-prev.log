@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'es' Physical Memory: 16330 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16330 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-E:/Tareas/Narrativa Level Design/BreadWars/Level 1
+E:/Tareas/BreadWars/LevelDesing101/Level 1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62449
-Successfully changed project path to: E:/Tareas/Narrativa Level Design/BreadWars/Level 1
-E:/Tareas/Narrativa Level Design/BreadWars/Level 1
+63734
+Successfully changed project path to: E:/Tareas/BreadWars/LevelDesing101/Level 1
+E:/Tareas/BreadWars/LevelDesing101/Level 1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,105 @@ E:/Tareas/Narrativa Level Design/BreadWars/Level 1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 111.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Tareas/Narrativa Level Design/BreadWars/Level 1/Assets
+[Subsystems] Discovering subsystems at path E:/Tareas/BreadWars/LevelDesing101/Level 1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
     Vendor:   NVIDIA
     VRAM:     3955 MB
-    Driver:   30.0.15.1215
+    Driver:   31.0.15.2225
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009605 seconds.
+Registered in 0.010550 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
+- Completed reload, in  0.951 seconds
 Domain Reload Profiling:
-	ReloadAssembly (799ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (951ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (562ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (116ms)
+			SetupTypeCache (156ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (353ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (385ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007914 seconds.
+Registered in 0.006296 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Tareas\Narrativa Level Design\BreadWars\Level 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Tareas\Narrativa Level Design\BreadWars\Level 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Tareas\BreadWars\LevelDesing101\Level 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Tareas\BreadWars\LevelDesing101\Level 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.294 seconds
+- Completed reload, in  1.757 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1295ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1759ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1011ms)
-			LoadAssemblies (103ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1397ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (345ms)
+			SetupTypeCache (530ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (461ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (603ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3834.
-Memory consumption went from 116.1 MB to 116.0 MB.
-Total: 4.457600 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.134500 ms MarkObjects: 3.820000 ms  DeleteObjects: 0.135900 ms)
+Unloading 3340 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.2 KB). Loaded Objects now: 3799.
+Memory consumption went from 114.9 MB to 114.9 MB.
+Total: 4.252800 ms (FindLiveObjects: 0.367400 ms CreateObjectMapping: 0.188000 ms MarkObjects: 3.581700 ms  DeleteObjects: 0.114400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,31 +159,37 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 58874.464645 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.013329 seconds 
+  Time since last request: 168170.130984 seconds.
+  path: Assets/Materiales/Grid_Checker.mat
+  artifactKey: Guid(f2399a6da34f0a744a2394d9a8a2f84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/Grid_Checker.mat using Guid(f2399a6da34f0a744a2394d9a8a2f84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91331e17ea52ef576e9bb213c159e84') in 0.424442 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 124.842145 seconds.
-  path: Assets/Blocking Models/Escoba.obj
-  artifactKey: Guid(fdcad5df34259314dad506408126245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blocking Models/Escoba.obj using Guid(fdcad5df34259314dad506408126245b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec77e1443e65a6116dd6a96c03c6d81c') in 0.608217 seconds 
+  Time since last request: 647.710392 seconds.
+  path: Assets/Blocking Models/Escena_Uvs.obj
+  artifactKey: Guid(b3a28ae665b1b5b429e68227d40ac755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blocking Models/Escena_Uvs.obj using Guid(b3a28ae665b1b5b429e68227d40ac755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460330f77cadfe7f85ebdd9c6110c9cf') in 0.177608 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Blocking Models/Refri.obj
-  artifactKey: Guid(228b7ec5a97a5e044982ba424b0b034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blocking Models/Refri.obj using Guid(228b7ec5a97a5e044982ba424b0b034b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988916d762733a38f90e62a2b580845a') in 0.048495 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Blocking Models/Horno_UV.obj
+  artifactKey: Guid(a167b78553e84f941b5a6ddaeec2d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blocking Models/Horno_UV.obj using Guid(a167b78553e84f941b5a6ddaeec2d0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3534ff1334f1fd7cc1e268a0379153a') in 0.051460 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Blocking Models/Mesa.obj
-  artifactKey: Guid(cc7d6bab182ef01409d62b52891f5adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blocking Models/Mesa.obj using Guid(cc7d6bab182ef01409d62b52891f5adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd025b51c3db751af65af8888c111b30f') in 0.048849 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Blocking Models/Refri_Uv.obj
+  artifactKey: Guid(ec82befc29efbdb4ca66dc49cc6fe415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blocking Models/Refri_Uv.obj using Guid(ec82befc29efbdb4ca66dc49cc6fe415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e5463e187c4cbe32c2230215597ee5') in 0.047244 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Blocking Models/Tabla.obj
-  artifactKey: Guid(581e9f51b006ddc49becfdffb93705f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Blocking Models/Tabla.obj using Guid(581e9f51b006ddc49becfdffb93705f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362ae0d38c2d9e5f8f7fbc3baeb5760d') in 0.035199 seconds 
+  Time since last request: 91.684509 seconds.
+  path: Assets/Materiales/1x1_grid_quarter_lines_numbered.png
+  artifactKey: Guid(dce2f2722e8f89b4f9ac524a68074682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/1x1_grid_quarter_lines_numbered.png using Guid(dce2f2722e8f89b4f9ac524a68074682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3db08a3788d847b07b62fcfbf4885a') in 0.085484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.727981 seconds.
+  path: Assets/Materiales/square_Checker.mat
+  artifactKey: Guid(9d049cb4bd051894f82ddbdd77009c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materiales/square_Checker.mat using Guid(9d049cb4bd051894f82ddbdd77009c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33fabca27612433a81b2e6b73adf384') in 0.028505 seconds 
