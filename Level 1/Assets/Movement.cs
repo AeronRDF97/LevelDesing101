@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
 
     public float speed = 6.0f;
-    public float rotateSpeed = 20.0f;
+    public float rotateSpeed = 6.0f;
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
 
@@ -29,6 +29,7 @@ public class Movement : MonoBehaviour
             moveDirection = new Vector3(0, 0, Input.GetAxis("Vertical"));
             moveDirection = transform.TransformDirection(moveDirection);
             moveDirection *= speed;
+            
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 moveDirection.y = jumpSpeed;
@@ -37,7 +38,7 @@ public class Movement : MonoBehaviour
         }
 
 
-        transform.Rotate(0, Input.GetAxis("Horizontal"), 0);
+        transform.Rotate(0, rotateSpeed * Input.GetAxis("Horizontal"), 0);
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
     }
