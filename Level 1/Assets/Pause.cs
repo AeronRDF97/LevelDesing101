@@ -9,7 +9,7 @@ public class Pause : MonoBehaviour
     public static bool isGamePaused = false;
     [SerializeField] GameObject pauseMenu;
     [SerializeField] GameObject creditsMenu;
-
+    [SerializeField] GameObject levelComplete;
 
     // Update is called once per frame
     void Update()
@@ -31,6 +31,7 @@ public class Pause : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         creditsMenu.SetActive(false);
+        levelComplete.SetActive(false);
         Time.timeScale = 1f;
         isGamePaused = false;
     }
@@ -59,4 +60,12 @@ public class Pause : MonoBehaviour
 
         Debug.Log("Quit");
     }
+
+    public void Menu()
+    {
+
+        SceneManager.LoadScene("Menu");
+    }
+
+    
 }
